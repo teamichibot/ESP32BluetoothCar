@@ -1,5 +1,7 @@
 # ESP32 RC Car with Bluetooth Classic and Servo Steering
 
+![ESP32 Blurtooth Car](URL_GAMBAR)
+
 ## Description
 
 This project enables you to control a **RC car** using **ESP32** with **Bluetooth Classic**. It uses:
