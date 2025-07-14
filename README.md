@@ -12,7 +12,7 @@ This project enables you to control a **RC car** using **ESP32** with **Bluetoot
 ## Features
 - Control forward, backward, and stop for the car.
 - Steering control with a servo motor (left, right, center).
-- Remote control via Bluetooth using **Serial Bluetooth Terminal** or a custom joystick app. app : BlueDuino on plasystore
+- Remote control via Bluetooth using **Serial Bluetooth Terminal** or a custom joystick app. app : BlueDuino on plasystore https://play.google.com/store/apps/details?id=com.app.aktham.blueduino&hl=id
 
 ## Components Needed
 - **ESP32** development board : https://s.shopee.co.id/5L0uSt61wq
