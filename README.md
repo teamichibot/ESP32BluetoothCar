@@ -1,6 +1,6 @@
 # ESP32 RC Car with Bluetooth Classic and Servo Steering
 
-![ESP32 Blurtooth Car](URL_GAMBAR)
+![ESP32 Blurtooth Car](https://github.com/teamichibot/ESP32BluetoothCar/blob/main/ESP32BluetoothCar.png)
 
 ## Description
 
