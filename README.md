@@ -25,6 +25,8 @@ This project enables you to control a **RC car** using **ESP32** with **Bluetoot
 
 ## Wiring Diagram
 
+![ESP32 Bluetooth Car Wiring](https://github.com/teamichibot/ESP32BluetoothCar/blob/main/ESP32%20Bluetooth%20Car%20Wiring.png)
+
 ### Connections:
 
 - **ESP32** Pin Configuration:
