@@ -10,22 +10,23 @@ This project enables you to control a **RC car** using **ESP32** with **Bluetoot
 ## Features
 - Control forward, backward, and stop for the car.
 - Steering control with a servo motor (left, right, center).
-- Remote control via Bluetooth using **Serial Bluetooth Terminal** or a custom joystick app.
+- Remote control via Bluetooth using **Serial Bluetooth Terminal** or a custom joystick app. app : BlueDuino on plasystore
 
 ## Components Needed
-- **ESP32** development board
-- **L298N Motor Driver** for motor control
-- **MG996R Servo Motor** for steering
-- **3S Li-ion Battery** (11.1V) for powering the motors and ESP32
-- **Bluetooth Classic** (built-in in ESP32)
-- **Bluetooth Serial Terminal App** (nRF Connect, LightBlue, or custom joystick app)
+- **ESP32** development board : https://s.shopee.co.id/5L0uSt61wq
+- **L298N Motor Driver** for motor control : https://s.shopee.co.id/qYV6h4uyD
+- **Step Down LM2596** : https://s.shopee.co.id/5fdkrhWMVN
+- **3S Li-ion Battery** (11.1V) for powering the motors and ESP32 : https://s.shopee.co.id/6VCrr98ald
+- **18650 3s Battery Holder** : https://s.shopee.co.id/9ADd2D3PGu
+- **BMS 3s 20A** : https://s.shopee.co.id/8pamddXUrp
+- **4WD Car Chassis with 25mm DC motor + MG996r Servo** : https://s.shopee.co.id/1BBLVd7bI4
 
 ## Wiring Diagram
 
 ### Connections:
 
 - **ESP32** Pin Configuration:
-  - `IN1` → GPIO 25 (Motor A)
+  - `IN1` → GPIO 26 (Motor A)
   - `IN2` → GPIO 27 (Motor A)
   - `ENA` → GPIO 14 (PWM motor control)
   - `Servo` → GPIO 13 (Steering control)
@@ -37,8 +38,8 @@ This project enables you to control a **RC car** using **ESP32** with **Bluetoot
   - `ENA` → Connected to PWM pin (GPIO 14)
 
 - **Servo (MG996R):**
-  - `VCC` → 5V power (through a buck converter from 12V)
-  - `GND` → Common ground
+  - `VCC` → 5V power (VOUT+ Step Down)
+  - `GND` → (VOUT- Step Down)
   - Control signal → GPIO 13
 
 ## Power Supply
